@@ -1,0 +1,13 @@
+.files-dropzone-list {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed #D3D3D3;
+  cursor: pointer;
+}
+
+.files-dropzone-active {
+  border: 1px solid lightgreen;
+  color: lightgreen;
+}

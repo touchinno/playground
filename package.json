@@ -1,0 +1,79 @@
+{
+  "name": "Playgound",
+  "version": "0.9.0",
+  "description": "Playgound",
+  "author": "touch",
+  "homepage": "/playgound",
+  "copyright": "Copyright 2020 touch",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "willbereplaced"
+  },
+  "dependencies": {
+    "@coreui/coreui": "^2.1.16",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.3.1",
+    "@coreui/icons": "^1.0.1",
+    "@coreui/react": "^2.5.8",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "core-js": "^3.6.5",
+    "echarts": "^4.8.0",
+    "echarts-for-react": "^2.0.16",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "file-saver": "^2.0.2",
+    "flag-icon-css": "^3.4.6",
+    "font-awesome": "^4.7.0",
+    "history": "^4.10.1",
+    "html-react-parser": "^0.12.0",
+    "jsep": "~0.3.4",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-app-polyfill": "^0.2.2",
+    "react-dom": "^16.9.0",
+    "react-files": "^2.4.8",
+    "react-json-view": "~1.19.1",
+    "react-router-config": "^4.4.0-beta.8",
+    "react-router-dom": "~4.3.1",
+    "react-test-renderer": "^16.9.0",
+    "reactstrap": "^8.0.1",
+    "simple-line-icons": "~2.4.1",
+    "tokenizr": "^1.5.4",
+    "use-global-hook": "^0.1.11",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "react-scripts": "^2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:cov": "react-scripts test --coverage",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "eject": "react-scripts eject"
+  },
+  "bugs": {
+    "url": "https://github.com/touchinno/playgound/issues"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 9",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  }
+}
